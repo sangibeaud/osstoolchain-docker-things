@@ -1,2 +1,7 @@
 chipdb/
 
+demo/blinky.bit
+demo/blinky.fasm
+demo/blinky.frames
+demo/blinky.json
+
