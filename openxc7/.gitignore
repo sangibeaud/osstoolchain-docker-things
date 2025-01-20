@@ -6,3 +6,4 @@ demo/blinky.frames
 demo/blinky.json
 demo/*.bba
 
+tests/**
