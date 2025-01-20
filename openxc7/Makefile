@@ -31,7 +31,7 @@ test-toolchain:
 
 test-demo:
 	make -C demo/ clean
-	$(RUN_CMD) make -C /work/demo/ CHIPDB=${CHIPDB} > testdemo.log
+	$(RUN_CMD) make -C /work/demo/ CHIPDB=${CHIPDB}
 	if [ -e "demo/blinky.bit" ]; then \
 		echo "File generated"; \
 	else \
